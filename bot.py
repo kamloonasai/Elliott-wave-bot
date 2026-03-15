@@ -1,12 +1,14 @@
+
+
 import time
 import urllib.request
 import json
 import os
 from datetime import datetime
 
-BOT_TOKEN = os.environ.get(“TELEGRAM_TOKEN”, “”)
-CHAT_ID = os.environ.get(“CHAT_ID”, “”)
-TWELVE_KEY = os.environ.get(“TWELVE_API_KEY”, “”)
+BOT_TOKEN = os.environ.get("TELEGRAM_TOKEN", "")
+CHAT_ID = os.environ.get("CHAT_ID", "")
+TWELVE_KEY = os.environ.get("TWELVE_API_KEY", "")
 CHECK_INTERVAL = 60
 
 PAIRS = [
